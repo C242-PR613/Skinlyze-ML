@@ -22,7 +22,7 @@ def predict(img_url):
   def load(filename):
     np_image = Image.open(filename)
     np_image = np.array(np_image).astype('float32')/255
-    np_image = tf.image.resize(np_image, (28,28))
+    np_image = tf.image.resize(np_image, (224,224))
     np_image = np.expand_dims(np_image, axis=0)
     return np_image
 
