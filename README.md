@@ -4,6 +4,42 @@ This project aims to classify skin diseases to facilitate early detection and di
 
 The system provides actionable insights, highlighting whether a detected condition requires immediate attention or further treatment. This approach aims to enhance diagnostic accuracy and support healthcare professionals in combating skin diseases, including malignant tumors and skin cancer, at earlier stages.
 
+## Table of Contents
+- [**Project Overview**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#table-of-contents)
+- [**Data Set**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#data-set)
+- [**Data Preprocessing**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#data-preprocessing)
+- [**Model Architecture**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#model-architecture)
+- [**Training**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#training)
+- [**Usage**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#usage)
+- [**Authors**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#authors)
+- [**Contributing**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#contributing)
+- [**Acknowledgments**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#acknowledgments)
+
+
+## Data Set
+
+
+## Data Preprocessing
+
+
+## Model Architecture
+
+
+## Training
+
+
+## Usage
+
+
+## Authors
+
+
+## Contributing
+
+
+## Acknowledgments
+
+
 Data Set
 https://drive.google.com/drive/u/3/folders/1VbOJbw3iNzIol4Tl4_LCHpZFLkvAno2b
 
