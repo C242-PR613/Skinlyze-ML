@@ -10,6 +10,7 @@ The system provides actionable insights, highlighting whether a detected conditi
 - [**Data Preprocessing**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#data-preprocessing)
 - [**Model Architecture**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#model-architecture)
 - [**Training**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#training)
+- [**Model Conversion**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#model-conversion)
 - [**Usage**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#usage)
 - [**Authors**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#authors)
 - [**Contributing**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#contributing)
@@ -26,7 +27,25 @@ The system provides actionable insights, highlighting whether a detected conditi
 
 
 ## Training
+The model is trained using:
 
+- Optimizer: Adam with a learning rate of 0.001.
+- Loss Function: Categorical Crossentropy.
+- Metrics: Accuracy (Categorical Accuracy).
+
+The training process incorporates callbacks to:
+
+- Save the model with the best performance.
+- Halt training early if validation accuracy stops improving.
+- Adjust the learning rate downward when validation loss levels off.
+
+## Model Conversion
+The trained model is saved in the .h5 format to facilitate continuous updates and allow fine-tuning with newer data. This decision ensures the flexibility and adaptability of the model as new skin disease patterns or datasets become available. The steps include:
+1. Saving the Keras model in .h5 format, which stores both the architecture and weights.
+2. Utilizing the .h5 format to reload the model easily for retraining or fine-tuning with additional or updated datasets.
+3. Exporting the retrained model for deployment or conversion to other formats, ensuring compatibility with various systems.
+
+By using the .h5 format, the model remains versatile for ongoing development and improvements, which is essential in medical applications where accuracy and relevance to current data are critical.
 
 ## Usage
 
