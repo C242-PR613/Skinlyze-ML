@@ -49,6 +49,7 @@ By using the .h5 format, the model remains versatile for ongoing development and
 
 ## Usage
 
+To deploy ML model, follow these steps:
 #### 1. Clone the repository
 
 ```bash
