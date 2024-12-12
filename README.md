@@ -49,6 +49,21 @@ By using the .h5 format, the model remains versatile for ongoing development and
 
 ## Usage
 
+#### 1. Clone the repository
+
+```bash
+git clone -b prod https://github.com/Skinlyze/Skinlyze-Backend.git
+```
+
+#### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+#### 3. Start the server
+```bash
+python app.py
+```
+
 
 ## Authors
 
@@ -67,20 +82,3 @@ https://creativecommons.org/licenses/by-nc/4.0/ (CC-BY-NC)
 
 Referensi 
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T
-
-### How to Replicate Project
-
-#### 1. Clone the repository
-
-```bash
-git clone -b prod https://github.com/Skinlyze/Skinlyze-Backend.git
-```
-
-#### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-#### 3. Start the server
-```bash
-python app.py
-```
