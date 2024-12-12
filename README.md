@@ -33,7 +33,12 @@ Data augmentation techniques are applied to enhance the diversity and size of th
  - Applying augmentation
 
 ## Model Architecture
+The model is built using the MobileNetV2 architecture with pre-trained weights from ImageNet. The architecture includes:
 
+- A base model from MobileNetV2, with the last six layers removed.
+- A flatten layer to reshape the output.
+- A dense layer with 7 units and a softmax activation function for classification.
+- The layers before the last 23 layers are frozen to prevent them from being trained.
 
 ## Training
 The model is trained using:
