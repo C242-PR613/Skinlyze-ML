@@ -21,7 +21,9 @@ The system provides actionable insights, highlighting whether a detected conditi
 
 
 ## Data Preprocessing
-
+The ImageDataGenerator class from TensorFlow and [tf.keras.applications.mobilenet.preprocess_input](https://www.tensorflow.org/api_docs/python/tf/keras/applications/mobilenet/preprocess_input) used to preprocess the data. These preprocessing setps include:
+ - Resizing Image to 224 x 224
+ - Normalize the pixel values
 
 ## Model Architecture
 
