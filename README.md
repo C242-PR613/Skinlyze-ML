@@ -85,8 +85,6 @@ This work is licensed under a
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
 ## Acknowledgments
-Data Set : <https://drive.google.com/drive/folders/1VbOJbw3iNzIol4Tl4_LCHpZFLkvAno2b?usp=sharing>
-
-Data Test: <https://drive.google.com/drive/u/3/folders/1VbOJbw3iNzIol4Tl4_LCHpZFLkvAno2b>
+Data Set: <https://drive.google.com/drive/u/3/folders/1VbOJbw3iNzIol4Tl4_LCHpZFLkvAno2b>
 
 Referensi: <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T>
