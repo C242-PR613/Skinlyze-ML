@@ -14,7 +14,9 @@ The system provides actionable insights, highlighting whether a detected conditi
 - [**Usage**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#usage)
 - [**Authors**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#authors)
 - [**Contributing**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#contributing)
+- [**License**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#license)
 - [**Acknowledgments**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#acknowledgments)
+- [**Reference**](https://github.com/Skinlyze/Skinlyze-ML?tab=readme-ov-file#reference)
 
 
 ## Data Set
@@ -68,9 +70,11 @@ python app.py
 ```
 
 ## Authors
-
+- [Rafid Ahmad Arfianto](https://github.com/rafid0004)
+- [M. Fauzan Naufal Ridho](https://github.com/ozannaufal15)
 
 ## Contributing
+Feel free to contribute to this project by submitting your ideas, suggestions, or improvements through a pull request. Please ensure that your contributions relevant for this project.
 
 ## License
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
@@ -85,6 +89,9 @@ This work is licensed under a
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
 ## Acknowledgments
+This project is a part of the Bangkit Academy 2024 capstone initiative by Team C242-PR613. We extend our heartfelt gratitude to our advisors, Mr. Firdhaus R. Azis and Mrs. Monifa Arini, for their guidance and support.
+
+## Reference
 Data Set: <https://drive.google.com/drive/u/3/folders/1VbOJbw3iNzIol4Tl4_LCHpZFLkvAno2b>
 
 Referensi: <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T>
