@@ -23,9 +23,14 @@ The system provides actionable insights, highlighting whether a detected conditi
 We use datasets sourced from [Harvard Dataverse (The HAM10000 dataset)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) and [ISIC](https://challenge.isic-archive.com/data/#2018), which provide extensive collections of images for skin lesion analysis and classification. It contains various Skin image categorized into 7 disease, that are Actinic Keratoses and Intraepithelial Carcinoma/Bowen's Disease (AKIEC), Basal Cell Carcinoma (BCC), Benign Keratosis-like Lesions (BKL), Dermatofibroma (DF), Melanoma (MEL), Melanocytic Nevi (NV), and Vascular Lesions (VASC).
 
 ## Data Preprocessing
-The ImageDataGenerator class from TensorFlow and [tf.keras.applications.mobilenet.preprocess_input](https://www.tensorflow.org/api_docs/python/tf/keras/applications/mobilenet/preprocess_input) used to preprocess the data. These preprocessing setps include:
+The dataset used for the Skin Lesion Classification model consists of images categorized into seven classes of skin conditions: Actinic Keratoses and Intraepithelial Carcinoma/Bowen's Disease (AKIEC), Basal Cell Carcinoma (BCC), Benign Keratosis-like Lesions (BKL), Dermatofibroma (DF), Melanoma (MEL), Melanocytic Nevi (NV), and Vascular Lesions (VASC). This diverse dataset includes images of various skin lesion types to support accurate analysis and classification.
+
+Data augmentation techniques are applied to enhance the diversity and size of the skin lesion dataset. The ImageDataGenerator class from TensorFlow and [tf.keras.applications.mobilenet.preprocess_input](https://www.tensorflow.org/api_docs/python/tf/keras/applications/mobilenet/preprocess_input) used to preprocess the data. These transformations help improve the model's ability to generalize and make more accurate predictions across the different skin lesion categories.
+
+ These preprocessing steps include:
  - Resizing Image to 224 x 224
  - Normalize the pixel values
+ - Applying augmentation
 
 ## Model Architecture
 
