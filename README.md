@@ -18,7 +18,7 @@ The system provides actionable insights, highlighting whether a detected conditi
 
 
 ## Data Set
-
+We use datasets sourced from [Harvard Dataverse (The HAM10000 dataset) and ISIC](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T), which provide extensive collections of images for skin lesion analysis and classification. It contains various Skin image categorized into 7 disease, that are Actinic Keratoses and Intraepithelial Carcinoma/Bowen's Disease (AKIEC), Basal Cell Carcinoma (BCC), Benign Keratosis-like Lesions (BKL), Dermatofibroma (DF), Melanoma (MEL), Melanocytic Nevi (NV), and Vascular Lesions (VASC).
 
 ## Data Preprocessing
 The ImageDataGenerator class from TensorFlow and [tf.keras.applications.mobilenet.preprocess_input](https://www.tensorflow.org/api_docs/python/tf/keras/applications/mobilenet/preprocess_input) used to preprocess the data. These preprocessing setps include:
