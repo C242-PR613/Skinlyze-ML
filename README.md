@@ -18,7 +18,7 @@ The system provides actionable insights, highlighting whether a detected conditi
 
 
 ## Data Set
-We use datasets sourced from [Harvard Dataverse (The HAM10000 dataset) and ISIC](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T), which provide extensive collections of images for skin lesion analysis and classification. It contains various Skin image categorized into 7 disease, that are Actinic Keratoses and Intraepithelial Carcinoma/Bowen's Disease (AKIEC), Basal Cell Carcinoma (BCC), Benign Keratosis-like Lesions (BKL), Dermatofibroma (DF), Melanoma (MEL), Melanocytic Nevi (NV), and Vascular Lesions (VASC).
+We use datasets sourced from [Harvard Dataverse (The HAM10000 dataset)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) and [ISIC](https://challenge.isic-archive.com/data/#2018), which provide extensive collections of images for skin lesion analysis and classification. It contains various Skin image categorized into 7 disease, that are Actinic Keratoses and Intraepithelial Carcinoma/Bowen's Disease (AKIEC), Basal Cell Carcinoma (BCC), Benign Keratosis-like Lesions (BKL), Dermatofibroma (DF), Melanoma (MEL), Melanocytic Nevi (NV), and Vascular Lesions (VASC).
 
 ## Data Preprocessing
 The ImageDataGenerator class from TensorFlow and [tf.keras.applications.mobilenet.preprocess_input](https://www.tensorflow.org/api_docs/python/tf/keras/applications/mobilenet/preprocess_input) used to preprocess the data. These preprocessing setps include:
@@ -85,6 +85,8 @@ This work is licensed under a
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
 ## Acknowledgments
-Data Set: <https://drive.google.com/drive/u/3/folders/1VbOJbw3iNzIol4Tl4_LCHpZFLkvAno2b>
+Data Set : <https://drive.google.com/drive/folders/1VbOJbw3iNzIol4Tl4_LCHpZFLkvAno2b?usp=sharing>
+
+Data Test: <https://drive.google.com/drive/u/3/folders/1VbOJbw3iNzIol4Tl4_LCHpZFLkvAno2b>
 
 Referensi: <https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T>
